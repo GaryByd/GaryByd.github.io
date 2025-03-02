@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="theme-color" content="#ffffff"><title>Hexo常用指令大全 - GaryHome</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="GaryHome"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="GaryHome"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Gary的技术博客，分享Web开发、云原生与工具链实践"><meta property="og:type" content="article"><meta property="og:title" content="Hexo常用指令大全"><meta property="og:url" content="https://garybyd.github.io/posts/Hexo%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8/"><meta property="og:site_name" content="GaryHome"><meta property="og:description" content="Gary的技术博客，分享Web开发、云原生与工具链实践"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://garybyd.github.io/img/og_image.png"><meta property="article:published_time" content="2025-03-02T11:33:33.000Z"><meta property="article:modified_time" content="2025-03-02T11:33:33.847Z"><meta property="article:author" content="Gary Byd"><meta property="article:tag" content="前端开发"><meta property="article:tag" content="云原生"><meta property="article:tag" content="DevOps"><meta property="article:tag" content="技术博客"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://garybyd.github.io/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://garybyd.github.io/posts/Hexo%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8/"},"headline":"Hexo常用指令大全","image":["https://garybyd.github.io/img/og_image.png"],"datePublished":"2025-03-02T11:33:33.000Z","dateModified":"2025-03-02T11:33:33.847Z","author":{"@type":"Person","name":"Gary Byd"},"publisher":{"@type":"Organization","name":"GaryHome","logo":{"@type":"ImageObject","url":"https://garybyd.github.io/img/logo.svg"}},"description":"Gary的技术博客，分享Web开发、云原生与工具链实践"}</script><link rel="canonical" href="https://garybyd.github.io/posts/Hexo%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8/"><link rel="alternate" href="/atom.xml" title="GaryHome" type="application/atom+xml"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link data-pjax rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-dark.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link data-pjax rel="stylesheet" href="/css/default.css"><!--!--><!-- hexo injector head_end start --><script>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="theme-color" content="#ffffff"><title>Hexo常用指令大全 - GaryHome</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="GaryHome"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="GaryHome"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Hexo 常用命令速查表      命令 功能 常用参数&amp;#x2F;示例    初始化     npm install -g hexo-cli 全局安装Hexo命令行工具    hexo init &amp;lt;folder&amp;gt; 初始化博客项目 hexo init myblog   npm install 安装依赖包（在项目目录执行）    内容管理     hexo new &amp;quot;标题&amp;amp;qu"><meta property="og:type" content="article"><meta property="og:title" content="Hexo常用指令大全"><meta property="og:url" content="https://garybyd.github.io/posts/Hexo%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8/"><meta property="og:site_name" content="GaryHome"><meta property="og:description" content="Hexo 常用命令速查表      命令 功能 常用参数&amp;#x2F;示例    初始化     npm install -g hexo-cli 全局安装Hexo命令行工具    hexo init &amp;lt;folder&amp;gt; 初始化博客项目 hexo init myblog   npm install 安装依赖包（在项目目录执行）    内容管理     hexo new &amp;quot;标题&amp;amp;qu"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://garybyd.github.io/img/og_image.png"><meta property="article:published_time" content="2025-03-02T11:33:33.000Z"><meta property="article:modified_time" content="2025-03-02T11:38:54.184Z"><meta property="article:author" content="Gary Byd"><meta property="article:tag" content="前端开发"><meta property="article:tag" content="云原生"><meta property="article:tag" content="DevOps"><meta property="article:tag" content="技术博客"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://garybyd.github.io/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://garybyd.github.io/posts/Hexo%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8/"},"headline":"Hexo常用指令大全","image":["https://garybyd.github.io/img/og_image.png"],"datePublished":"2025-03-02T11:33:33.000Z","dateModified":"2025-03-02T11:38:54.184Z","author":{"@type":"Person","name":"Gary Byd"},"publisher":{"@type":"Organization","name":"GaryHome","logo":{"@type":"ImageObject","url":"https://garybyd.github.io/img/logo.svg"}},"description":"Hexo 常用命令速查表      命令 功能 常用参数&#x2F;示例    初始化     npm install -g hexo-cli 全局安装Hexo命令行工具    hexo init &lt;folder&gt; 初始化博客项目 hexo init myblog   npm install 安装依赖包（在项目目录执行）    内容管理     hexo new &quot;标题&amp;qu"}</script><link rel="canonical" href="https://garybyd.github.io/posts/Hexo%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8/"><link rel="alternate" href="/atom.xml" title="GaryHome" type="application/atom+xml"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link data-pjax rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-dark.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link data-pjax rel="stylesheet" href="/css/default.css"><!--!--><!-- hexo injector head_end start --><script>
   (function () {
       function switchTab() {
           if (!location.hash) {
@@ -29,7 +29,171 @@
       switchTab();
       window.addEventListener('hashchange', switchTab, false);
   })();
-  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="GaryHome" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="GitHub仓库" href="https://github.com/GaryByd/Gary.github.io"><i class="fab fa-github"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-03-02T11:33:33.000Z" title="3/2/2025, 7:33:33 PM">2025-03-02</time>发表</span><span class="level-item"><time dateTime="2025-03-02T11:33:33.847Z" title="3/2/2025, 7:33:33 PM">2025-03-02</time>更新</span></div></div><h1 class="title is-3 is-size-4-mobile">Hexo常用指令大全</h1><div class="content"></div><div class="article-licensing box"><div class="licensing-title"><p>Hexo常用指令大全</p><p><a href="https://garybyd.github.io/posts/Hexo常用指令大全/">https://garybyd.github.io/posts/Hexo常用指令大全/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Gary Byd</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2025-03-02</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2025-03-02</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener" target="_blank" title="CC-BY-NC" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="sharethis-inline-share-buttons"></div><script src="https://platform-api.sharethis.com/js/sharethis.js#property=你的ID" defer></script></article></div><!--!--><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="/img/avatar.png" alt="Gary"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Gary</p><p class="is-size-6 is-block">做一个热爱技术的人</p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives/"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories/"><p class="title">0</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags/"><p class="title">0</p></a></div></div></nav><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="GitHub" href="https://github.com/GaryByd"><i class="fab fa-github"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">爬虫实例</span></span></a></li><li><a class="level is-mobile" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">RSM微信版</span></span></a></li></ul></div></div></div><!--!--><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-03-02T11:33:33.000Z">2025-03-02</time></p><p class="title"><a href="/posts/Hexo%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8/">Hexo常用指令大全</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2025/03/"><span class="level-start"><span class="level-item">三月 2025</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><!--!--></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.svg" alt="GaryHome" height="28"></a><p class="is-size-7"><span>&copy; 2025 Gary Byd</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2023-2025 GaryByd</p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="CC协议" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="GaryHome" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="GitHub仓库" href="https://github.com/GaryByd/Gary.github.io"><i class="fab fa-github"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2025-03-02T11:33:33.000Z" title="3/2/2025, 7:33:33 PM">2025-03-02</time>发表</span><span class="level-item"><time dateTime="2025-03-02T11:38:54.184Z" title="3/2/2025, 7:38:54 PM">2025-03-02</time>更新</span></div></div><h1 class="title is-3 is-size-4-mobile">Hexo常用指令大全</h1><div class="content"><p><strong>Hexo 常用命令速查表</strong>  </p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>常用参数&#x2F;示例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>初始化</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>npm install -g hexo-cli</code></td>
+<td>全局安装Hexo命令行工具</td>
+<td></td>
+</tr>
+<tr>
+<td><code>hexo init &lt;folder&gt;</code></td>
+<td>初始化博客项目</td>
+<td><code>hexo init myblog</code></td>
+</tr>
+<tr>
+<td><code>npm install</code></td>
+<td>安装依赖包（在项目目录执行）</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>内容管理</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>hexo new &quot;标题&quot;</code></td>
+<td>新建文章</td>
+<td><code>hexo new &quot;Hello World&quot;</code></td>
+</tr>
+<tr>
+<td><code>hexo new page &quot;名称&quot;</code></td>
+<td>新建页面</td>
+<td><code>hexo new page &quot;about&quot;</code></td>
+</tr>
+<tr>
+<td><code>hexo publish &lt;filename&gt;</code></td>
+<td>发布草稿</td>
+<td><code>hexo publish draft/untitled.md</code></td>
+</tr>
+<tr>
+<td><strong>生成与预览</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>hexo generate</code></td>
+<td>生成静态文件（简写<code>hexo g</code>）</td>
+<td><code>hexo g --watch</code>（监听文件变化）</td>
+</tr>
+<tr>
+<td><code>hexo server</code></td>
+<td>启动本地服务器（简写<code>hexo s</code>）</td>
+<td><code>hexo s -p 5000</code>（指定端口）</td>
+</tr>
+<tr>
+<td><code>hexo clean</code></td>
+<td>清除缓存和生成文件</td>
+<td>常与生成命令组合使用</td>
+</tr>
+<tr>
+<td><strong>部署</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>npm install hexo-deployer-git --save</code></td>
+<td>安装Git部署插件</td>
+<td></td>
+</tr>
+<tr>
+<td><code>hexo deploy</code></td>
+<td>部署到服务器（简写<code>hexo d</code>）</td>
+<td><code>hexo d --generate</code>（先生成后部署）</td>
+</tr>
+<tr>
+<td><strong>组合命令</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>hexo g -d</code></td>
+<td>生成后立即部署</td>
+<td>常用部署组合</td>
+</tr>
+<tr>
+<td><code>hexo s -g</code></td>
+<td>生成后启动服务器</td>
+<td>开发调试常用</td>
+</tr>
+<tr>
+<td><strong>高级操作</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>hexo list &lt;type&gt;</code></td>
+<td>列出所有文章&#x2F;页面等</td>
+<td><code>hexo list post</code></td>
+</tr>
+<tr>
+<td><code>hexo version</code></td>
+<td>查看Hexo版本</td>
+<td></td>
+</tr>
+<tr>
+<td><code>hexo --config custom.yml</code></td>
+<td>使用自定义配置文件</td>
+<td>多环境配置时使用</td>
+</tr>
+</tbody></table>
+<hr>
+<p><strong>典型工作流示例</strong>  </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 1. 创建新文章</span><br>hexo new <span class="hljs-string">&quot;深入理解Hexo架构&quot;</span><br><br><span class="hljs-comment"># 2. 本地写作并预览</span><br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s<br><br><span class="hljs-comment"># 3. 部署到GitHub</span><br>hexo clean &amp;&amp; hexo g -d<br></code></pre></td></tr></table></figure>
+
+<hr>
+<p><strong>配置注意要点</strong>  </p>
+<ol>
+<li>部署配置（<code>_config.yml</code>）</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>  <span class="hljs-attr">repo:</span> <span class="hljs-string">https://github.com/用户名/仓库名.git</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">gh-pages</span><br></code></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>主题配置示例</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">theme:</span> <span class="hljs-string">icarus</span>  <span class="hljs-comment"># 需先安装主题到themes目录</span><br></code></pre></td></tr></table></figure>
+
+<hr>
+<p><strong>常用插件推荐</strong>  </p>
+<table>
+<thead>
+<tr>
+<th>插件</th>
+<th>功能</th>
+<th>安装命令</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>hexo-abbrlink</code></td>
+<td>生成永久链接</td>
+<td><code>npm install hexo-abbrlink --save</code></td>
+</tr>
+<tr>
+<td><code>hexo-all-minifier</code></td>
+<td>压缩静态资源</td>
+<td><code>npm install hexo-all-minifier --save</code></td>
+</tr>
+<tr>
+<td><code>hexo-generator-search</code></td>
+<td>添加本地搜索</td>
+<td><code>npm install hexo-generator-search --save</code></td>
+</tr>
+</tbody></table>
+<p>掌握这些命令可提升博客管理效率，建议结合<code>--debug</code>参数排查问题：  </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo g --debug  <span class="hljs-comment"># 显示详细生成日志</span><br></code></pre></td></tr></table></figure>
+</div><div class="article-licensing box"><div class="licensing-title"><p>Hexo常用指令大全</p><p><a href="https://garybyd.github.io/posts/Hexo常用指令大全/">https://garybyd.github.io/posts/Hexo常用指令大全/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Gary Byd</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2025-03-02</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2025-03-02</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener" target="_blank" title="CC-BY-NC" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="sharethis-inline-share-buttons"></div><script src="https://platform-api.sharethis.com/js/sharethis.js#property=你的ID" defer></script></article></div><!--!--><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="/img/avatar.png" alt="Gary"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Gary</p><p class="is-size-6 is-block">做一个热爱技术的人</p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives/"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories/"><p class="title">0</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags/"><p class="title">0</p></a></div></div></nav><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="GitHub" href="https://github.com/GaryByd"><i class="fab fa-github"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">爬虫实例</span></span></a></li><li><a class="level is-mobile" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">RSM微信版</span></span></a></li></ul></div></div></div><!--!--><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-03-02T11:33:33.000Z">2025-03-02</time></p><p class="title"><a href="/posts/Hexo%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4%E5%A4%A7%E5%85%A8/">Hexo常用指令大全</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2025/03/"><span class="level-start"><span class="level-item">三月 2025</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><!--!--></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.svg" alt="GaryHome" height="28"></a><p class="is-size-7"><span>&copy; 2025 Gary Byd</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2023-2025 GaryByd</p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="CC协议" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
             article: {
                 highlight: {
                     clipboard: true,
